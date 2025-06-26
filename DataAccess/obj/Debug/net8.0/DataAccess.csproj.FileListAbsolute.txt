@@ -1,0 +1,17 @@
+D:\ITI\API\APISols\DataAccess\obj\Debug\net8.0\DataAccess.csproj.AssemblyReference.cache
+D:\ITI\API\APISols\DataAccess\obj\Debug\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITI\API\APISols\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
+D:\ITI\API\APISols\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
+D:\ITI\API\APISols\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\ITI\API\APISols\DataAccess\bin\Debug\net8.0\DataAccess.deps.json
+D:\ITI\API\APISols\DataAccess\bin\Debug\net8.0\DataAccess.dll
+D:\ITI\API\APISols\DataAccess\bin\Debug\net8.0\DataAccess.pdb
+D:\ITI\API\APISols\DataAccess\bin\Debug\net8.0\Entities.dll
+D:\ITI\API\APISols\DataAccess\bin\Debug\net8.0\Entities.pdb
+D:\ITI\API\APISols\DataAccess\obj\Debug\net8.0\DataAccess.csproj.Up2Date
+D:\ITI\API\APISols\DataAccess\obj\Debug\net8.0\DataAccess.dll
+D:\ITI\API\APISols\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
+D:\ITI\API\APISols\DataAccess\obj\Debug\net8.0\DataAccess.pdb
+D:\ITI\API\APISols\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
+D:\ITI\API\APISols\DataAccess\bin\Debug\net8.0\DataAccess.runtimeconfig.json
+D:\ITI\API\APISols\DataAccess\obj\Debug\net8.0\DataAccess.genruntimeconfig.cache
