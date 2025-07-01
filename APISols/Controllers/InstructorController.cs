@@ -4,15 +4,13 @@ using Microsoft.EntityFrameworkCore;
 using Entities.DTO;
 using Entities.Models;
 
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-
 namespace APISols.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
     public class InstructorController : ControllerBase
     {
-        AppDbContext _context;
+        private readonly AppDbContext _context;
         public InstructorController(AppDbContext dbContext)
         {
             _context = dbContext;
@@ -48,7 +46,6 @@ namespace APISols.Controllers
             return CreatedAtAction(nameof(Get),new{ id = instructorDto.Id },instructorDto);
         }
 
-        // PUT api/<InstructorController>/5
         [HttpPut("{id}")]
         public IActionResult Update(int id, [FromBody] InstructorDto instructorDto)
         {
@@ -63,7 +60,6 @@ namespace APISols.Controllers
             return NoContent();
         }
 
-        // DELETE api/<InstructorController>/5
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {

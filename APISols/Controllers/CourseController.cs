@@ -1,4 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using DataAccess.Data;
+using Entities.DTO;
+using Entities.Models;
+using Microsoft.AspNetCore.Http.HttpResults;
+using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -8,36 +12,74 @@ namespace APISols.Controllers
     [ApiController]
     public class CourseController : ControllerBase
     {
-        // GET: api/<CourseController>
+
+        private readonly AppDbContext _context;
+        public CourseController(AppDbContext dbContext)
+        {
+            _context = dbContext;
+        }
+
         [HttpGet]
-        public IEnumerable<string> Get()
+        public IActionResult Get()
         {
-            return new string[] { "value1", "value2" };
+            var courses = _context.Courses
+                                   .Select(c => new CourseDto {Id = c.Id,Name=c.Name,InstId=c.InstID})
+                                   .ToList();
+            return Ok(courses);
         }
 
-        // GET api/<CourseController>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public IActionResult Get(int id)
         {
-            return "value";
+            var course = _context.Courses.FirstOrDefault(c => c.Id == id);
+            if (course == null) 
+            {
+                return BadRequest("Course Not Found");
+            }
+            var dto = new CourseDto()
+            {
+                Id = course.Id,
+                Name = course.Name,
+                InstId = course.InstID,
+            };
+            
+            return Ok(dto);
         }
 
-        // POST api/<CourseController>
         [HttpPost]
-        public void Post([FromBody] string value)
+        public IActionResult Add([FromBody] CourseDto courseDto)
         {
+            var course = new Course {Id=courseDto.Id, Name=courseDto.Name, InstID=courseDto.InstId, };
+            _context.Courses.Add(course);
+            _context.SaveChanges();
+            return CreatedAtAction(nameof(Get), new {id=courseDto.Id }, courseDto);
         }
 
-        // PUT api/<CourseController>/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        public IActionResult Update(int id, [FromBody] CourseDto courseDto)
         {
+            var course = _context.Courses.FirstOrDefault(c=>c.Id == id);
+            if (course == null)
+            {
+                return BadRequest("Course Not Found");
+            }
+            course.Name = courseDto.Name;
+            course.InstID = courseDto.InstId;
+            _context.SaveChanges();
+            return NoContent();
         }
 
-        // DELETE api/<CourseController>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public IActionResult Delete(int id)
         {
+            var course = _context.Courses.FirstOrDefault(c=>c.Id == id);
+            if (course == null)
+            {
+                return BadRequest("Course Not Found");
+            }
+            _context.Courses.Remove(course);
+            _context.SaveChanges();
+            return NoContent();
         }
     }
 }
