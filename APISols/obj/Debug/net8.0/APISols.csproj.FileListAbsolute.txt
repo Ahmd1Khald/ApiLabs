@@ -138,3 +138,4 @@ D:\ITI\API\APISols\APISols\bin\Debug\net8.0\Entities.dll
 D:\ITI\API\APISols\APISols\bin\Debug\net8.0\DataAccess.pdb
 D:\ITI\API\APISols\APISols\bin\Debug\net8.0\Entities.pdb
 D:\ITI\API\APISols\APISols\obj\Debug\net8.0\APISols.MvcApplicationPartsAssemblyInfo.cs
+D:\ITI\API\APISols\APISols\obj\Debug\net8.0\APISols.sourcelink.json

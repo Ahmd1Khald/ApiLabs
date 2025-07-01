@@ -1,54 +1,50 @@
 [
   {
-    "ContainingType": "APISols.Controllers.EducationController",
-    "Method": "GetCourseWithInstructor",
-    "RelativePath": "api/Education",
+    "ContainingType": "APISols.Controllers.CourseController",
+    "Method": "Get",
+    "RelativePath": "api/Course",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
-    "ContainingType": "APISols.Controllers.EducationController",
-    "Method": "GetInstructorWithCourses",
-    "RelativePath": "api/Education/InstructorWithCourses",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "APISols.Controllers.StudentController",
-    "Method": "Add",
-    "RelativePath": "api/Student",
+    "ContainingType": "APISols.Controllers.CourseController",
+    "Method": "Post",
+    "RelativePath": "api/Course",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "student",
-        "Type": "Entities.Models.Student",
+        "Name": "value",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
   },
   {
-    "ContainingType": "APISols.Controllers.StudentController",
-    "Method": "GetALl",
-    "RelativePath": "api/Student",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "APISols.Controllers.StudentController",
-    "Method": "GetById",
-    "RelativePath": "api/Student/{id}",
+    "ContainingType": "APISols.Controllers.CourseController",
+    "Method": "Get",
+    "RelativePath": "api/Course/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -59,12 +55,22 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
-    "ContainingType": "APISols.Controllers.StudentController",
-    "Method": "Update",
-    "RelativePath": "api/Student/{id}",
+    "ContainingType": "APISols.Controllers.CourseController",
+    "Method": "Put",
+    "RelativePath": "api/Course/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -75,9 +81,132 @@
         "IsRequired": true
       },
       {
-        "Name": "newStudent",
-        "Type": "Entities.Models.Student",
+        "Name": "value",
+        "Type": "System.String",
         "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APISols.Controllers.CourseController",
+    "Method": "Delete",
+    "RelativePath": "api/Course/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APISols.Controllers.InstructorController",
+    "Method": "Get",
+    "RelativePath": "api/Instructor",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APISols.Controllers.InstructorController",
+    "Method": "Add",
+    "RelativePath": "api/Instructor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "instructorDto",
+        "Type": "Entities.DTO.InstructorDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APISols.Controllers.InstructorController",
+    "Method": "Get",
+    "RelativePath": "api/Instructor/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APISols.Controllers.InstructorController",
+    "Method": "Update",
+    "RelativePath": "api/Instructor/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "instructorDto",
+        "Type": "Entities.DTO.InstructorDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APISols.Controllers.InstructorController",
+    "Method": "Delete",
+    "RelativePath": "api/Instructor/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APISols.Controllers.StudentController",
+    "Method": "GetById",
+    "RelativePath": "api/Student",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -93,6 +222,53 @@
       {
         "Name": "id",
         "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APISols.Controllers.StudentController",
+    "Method": "Add",
+    "RelativePath": "api/Student/AddStudent",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "student",
+        "Type": "Entities.Models.Student",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APISols.Controllers.StudentController",
+    "Method": "GetALl",
+    "RelativePath": "api/Student/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APISols.Controllers.StudentController",
+    "Method": "Update",
+    "RelativePath": "api/Student/Update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "newStudent",
+        "Type": "Entities.Models.Student",
         "IsRequired": true
       }
     ],

@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "D:\\ITI\\API\\APISols\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A76BDFBF-6A5F-4ADF-B9B7-4662F81CEE64}|APISols\\APISols.csproj|d:\\iti\\api\\apisols\\apisols\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A76BDFBF-6A5F-4ADF-B9B7-4662F81CEE64}|APISols\\APISols.csproj|solutionrelative:apisols\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A76BDFBF-6A5F-4ADF-B9B7-4662F81CEE64}|APISols\\APISols.csproj|d:\\iti\\api\\apisols\\apisols\\controllers\\instructorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A76BDFBF-6A5F-4ADF-B9B7-4662F81CEE64}|APISols\\APISols.csproj|solutionrelative:apisols\\controllers\\instructorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A76BDFBF-6A5F-4ADF-B9B7-4662F81CEE64}|APISols\\APISols.csproj|d:\\iti\\api\\apisols\\apisols\\controllers\\educationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A76BDFBF-6A5F-4ADF-B9B7-4662F81CEE64}|APISols\\APISols.csproj|solutionrelative:apisols\\controllers\\educationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8EED33A-063D-4E50-8195-12243988A916}|DataAccess\\DataAccess.csproj|d:\\iti\\api\\apisols\\dataaccess\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8EED33A-063D-4E50-8195-12243988A916}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A76BDFBF-6A5F-4ADF-B9B7-4662F81CEE64}|APISols\\APISols.csproj|d:\\iti\\api\\apisols\\apisols\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A76BDFBF-6A5F-4ADF-B9B7-4662F81CEE64}|APISols\\APISols.csproj|solutionrelative:apisols\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27233786-EE46-4D64-A889-7CC2FF6F1549}|Entities\\Entities.csproj|d:\\iti\\api\\apisols\\entities\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27233786-EE46-4D64-A889-7CC2FF6F1549}|Entities\\Entities.csproj|solutionrelative:entities\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A76BDFBF-6A5F-4ADF-B9B7-4662F81CEE64}|APISols\\APISols.csproj|d:\\iti\\api\\apisols\\apisols\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A76BDFBF-6A5F-4ADF-B9B7-4662F81CEE64}|APISols\\APISols.csproj|solutionrelative:apisols\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27233786-EE46-4D64-A889-7CC2FF6F1549}|Entities\\Entities.csproj|d:\\iti\\api\\apisols\\entities\\dto\\instructordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27233786-EE46-4D64-A889-7CC2FF6F1549}|Entities\\Entities.csproj|solutionrelative:entities\\dto\\instructordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{27233786-EE46-4D64-A889-7CC2FF6F1549}|Entities\\Entities.csproj|d:\\iti\\api\\apisols\\entities\\models\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,12 +31,8 @@
       "RelativeMoniker": "D:0:0:{27233786-EE46-4D64-A889-7CC2FF6F1549}|Entities\\Entities.csproj|solutionrelative:entities\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27233786-EE46-4D64-A889-7CC2FF6F1549}|Entities\\Entities.csproj|d:\\iti\\api\\apisols\\entities\\dto\\instructorwithcoursesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27233786-EE46-4D64-A889-7CC2FF6F1549}|Entities\\Entities.csproj|solutionrelative:entities\\dto\\instructorwithcoursesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{27233786-EE46-4D64-A889-7CC2FF6F1549}|Entities\\Entities.csproj|d:\\iti\\api\\apisols\\entities\\dto\\coursewithinstructordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27233786-EE46-4D64-A889-7CC2FF6F1549}|Entities\\Entities.csproj|solutionrelative:entities\\dto\\coursewithinstructordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C8EED33A-063D-4E50-8195-12243988A916}|DataAccess\\DataAccess.csproj|d:\\iti\\api\\apisols\\dataaccess\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8EED33A-063D-4E50-8195-12243988A916}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,15 +42,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 16,
+          "SelectedChildIndex": 15,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Bookmark",
@@ -85,68 +81,33 @@
               "Name": "ST:553326464:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "D:\\ITI\\API\\APISols\\DataAccess\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Data\\AppDbContext.cs",
-              "ToolTip": "D:\\ITI\\API\\APISols\\DataAccess\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "DataAccess\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T10:44:03.656Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\ITI\\API\\APISols\\APISols\\appsettings.json",
+              "RelativeDocumentMoniker": "APISols\\appsettings.json",
+              "ToolTip": "D:\\ITI\\API\\APISols\\APISols\\appsettings.json",
+              "RelativeToolTip": "APISols\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-01T16:33:49.456Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Student.cs",
-              "DocumentMoniker": "D:\\ITI\\API\\APISols\\Entities\\Models\\Student.cs",
-              "RelativeDocumentMoniker": "Entities\\Models\\Student.cs",
-              "ToolTip": "D:\\ITI\\API\\APISols\\Entities\\Models\\Student.cs",
-              "RelativeToolTip": "Entities\\Models\\Student.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ITI\\API\\APISols\\APISols\\Program.cs",
+              "RelativeDocumentMoniker": "APISols\\Program.cs",
+              "ToolTip": "D:\\ITI\\API\\APISols\\APISols\\Program.cs",
+              "RelativeToolTip": "APISols\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA5wBIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T10:43:54.007Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Instructor.cs",
-              "DocumentMoniker": "D:\\ITI\\API\\APISols\\Entities\\Models\\Instructor.cs",
-              "RelativeDocumentMoniker": "Entities\\Models\\Instructor.cs",
-              "ToolTip": "D:\\ITI\\API\\APISols\\Entities\\Models\\Instructor.cs",
-              "RelativeToolTip": "Entities\\Models\\Instructor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T10:43:52.744Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Course.cs",
-              "DocumentMoniker": "D:\\ITI\\API\\APISols\\Entities\\Models\\Course.cs",
-              "RelativeDocumentMoniker": "Entities\\Models\\Course.cs",
-              "ToolTip": "D:\\ITI\\API\\APISols\\Entities\\Models\\Course.cs",
-              "RelativeToolTip": "Entities\\Models\\Course.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T10:43:49.464Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "InstructorWithCoursesDto.cs",
-              "DocumentMoniker": "D:\\ITI\\API\\APISols\\Entities\\DTO\\InstructorWithCoursesDto.cs",
-              "RelativeDocumentMoniker": "Entities\\DTO\\InstructorWithCoursesDto.cs",
-              "ToolTip": "D:\\ITI\\API\\APISols\\Entities\\DTO\\InstructorWithCoursesDto.cs",
-              "RelativeToolTip": "Entities\\DTO\\InstructorWithCoursesDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T10:30:16.96Z",
+              "WhenOpened": "2025-07-01T16:28:43.967Z",
               "EditorCaption": ""
             },
             {
@@ -157,35 +118,74 @@
               "RelativeDocumentMoniker": "APISols\\Controllers\\EducationController.cs",
               "ToolTip": "D:\\ITI\\API\\APISols\\APISols\\Controllers\\EducationController.cs",
               "RelativeToolTip": "APISols\\Controllers\\EducationController.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAYwEAAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAEQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T08:31:05.987Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "StudentController.cs",
-              "DocumentMoniker": "D:\\ITI\\API\\APISols\\APISols\\Controllers\\StudentController.cs",
-              "RelativeDocumentMoniker": "APISols\\Controllers\\StudentController.cs",
-              "ToolTip": "D:\\ITI\\API\\APISols\\APISols\\Controllers\\StudentController.cs",
-              "RelativeToolTip": "APISols\\Controllers\\StudentController.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAowEwAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T08:00:12.733Z",
+              "WhenOpened": "2025-07-01T16:21:20.611Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "CourseWithInstructorDto.cs",
-              "DocumentMoniker": "D:\\ITI\\API\\APISols\\Entities\\DTO\\CourseWithInstructorDto.cs",
-              "RelativeDocumentMoniker": "Entities\\DTO\\CourseWithInstructorDto.cs",
-              "ToolTip": "D:\\ITI\\API\\APISols\\Entities\\DTO\\CourseWithInstructorDto.cs",
-              "RelativeToolTip": "Entities\\DTO\\CourseWithInstructorDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\ITI\\API\\APISols\\DataAccess\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\ITI\\API\\APISols\\DataAccess\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "DataAccess\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T10:30:13.373Z",
+              "WhenOpened": "2025-07-01T14:59:52.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InstructorDto.cs",
+              "DocumentMoniker": "D:\\ITI\\API\\APISols\\Entities\\DTO\\InstructorDto.cs",
+              "RelativeDocumentMoniker": "Entities\\DTO\\InstructorDto.cs",
+              "ToolTip": "D:\\ITI\\API\\APISols\\Entities\\DTO\\InstructorDto.cs",
+              "RelativeToolTip": "Entities\\DTO\\InstructorDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T14:56:29.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InstructorController.cs",
+              "DocumentMoniker": "D:\\ITI\\API\\APISols\\APISols\\Controllers\\InstructorController.cs",
+              "RelativeDocumentMoniker": "APISols\\Controllers\\InstructorController.cs",
+              "ToolTip": "D:\\ITI\\API\\APISols\\APISols\\Controllers\\InstructorController.cs",
+              "RelativeToolTip": "APISols\\Controllers\\InstructorController.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAkwFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T14:54:31.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Instructor.cs",
+              "DocumentMoniker": "D:\\ITI\\API\\APISols\\Entities\\Models\\Instructor.cs",
+              "RelativeDocumentMoniker": "Entities\\Models\\Instructor.cs",
+              "ToolTip": "D:\\ITI\\API\\APISols\\Entities\\Models\\Instructor.cs",
+              "RelativeToolTip": "Entities\\Models\\Instructor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T10:43:52.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Course.cs",
+              "DocumentMoniker": "D:\\ITI\\API\\APISols\\Entities\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "Entities\\Models\\Course.cs",
+              "ToolTip": "D:\\ITI\\API\\APISols\\Entities\\Models\\Course.cs",
+              "RelativeToolTip": "Entities\\Models\\Course.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T10:43:49.464Z",
               "EditorCaption": ""
             }
           ]

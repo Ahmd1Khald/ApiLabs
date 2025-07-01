@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Entities.DTO
 {
-    public class InstructorWithCoursesDto
+    public class InstructorDto
     {
-        public string InstructorName { get; set; }
-        public List<string> CoursesName { get; set; }
+        public int Id { get; set; }
+        public string Name { get; set; }
     }
 }

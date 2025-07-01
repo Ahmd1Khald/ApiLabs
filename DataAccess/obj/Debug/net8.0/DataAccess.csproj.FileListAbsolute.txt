@@ -15,3 +15,4 @@ D:\ITI\API\APISols\DataAccess\obj\Debug\net8.0\DataAccess.pdb
 D:\ITI\API\APISols\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
 D:\ITI\API\APISols\DataAccess\bin\Debug\net8.0\DataAccess.runtimeconfig.json
 D:\ITI\API\APISols\DataAccess\obj\Debug\net8.0\DataAccess.genruntimeconfig.cache
+D:\ITI\API\APISols\DataAccess\obj\Debug\net8.0\DataAccess.sourcelink.json

@@ -12,14 +12,14 @@ namespace APISols.Controllers
     public class StudentController : ControllerBase
     {
         private readonly AppDbContext _dbContext;
-        public StudentController(AppDbContext dbContext) 
+        public StudentController(AppDbContext dbContext)
         {
             _dbContext = dbContext;
         }
 
         #region Create
 
-        [HttpPost]
+        [HttpPost("AddStudent")]
         public IActionResult Add(Student student)
         {
             _dbContext.Students.Add(student);
@@ -29,14 +29,14 @@ namespace APISols.Controllers
         #endregion
 
         #region Read
-        [HttpGet]
+        [HttpGet("GetAll")]
         public IActionResult GetALl()
         {
             return Ok(_dbContext.Students.ToList());
         }
 
-        [HttpGet("{id}")]
-        public IActionResult GetById(int id)
+        [HttpGet]
+        public IActionResult GetById([FromQuery]int id)
         {
             var s = _dbContext.Students.FirstOrDefault(x => x.Id == id);
             return Ok(s);
@@ -45,8 +45,8 @@ namespace APISols.Controllers
 
         #region Update
 
-        [HttpPut("{id}")]
-        public IActionResult Update(int id, Student newStudent)
+        [HttpPut("Update/{id}")]
+        public IActionResult Update([FromRoute] int id, [FromBody]Student newStudent)
         {
             var dbStudent = _dbContext.Students.FirstOrDefault(x => x.Id == id);
             if (newStudent != null)
