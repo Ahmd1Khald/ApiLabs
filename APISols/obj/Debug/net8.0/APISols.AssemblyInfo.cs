@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("APISols")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+de69e6fc7e94bc971db7a310386964ab25f41128")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+de1d51ae24dc9370c417e4e131c8838302503a01")]
 [assembly: System.Reflection.AssemblyProductAttribute("APISols")]
 [assembly: System.Reflection.AssemblyTitleAttribute("APISols")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

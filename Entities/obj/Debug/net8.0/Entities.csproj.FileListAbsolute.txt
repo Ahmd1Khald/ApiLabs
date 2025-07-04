@@ -10,3 +10,4 @@ D:\ITI\API\APISols\Entities\obj\Debug\net8.0\refint\Entities.dll
 D:\ITI\API\APISols\Entities\obj\Debug\net8.0\Entities.pdb
 D:\ITI\API\APISols\Entities\obj\Debug\net8.0\ref\Entities.dll
 D:\ITI\API\APISols\Entities\obj\Debug\net8.0\Entities.sourcelink.json
+D:\ITI\API\APISols\Entities\obj\Debug\net8.0\Entities.csproj.AssemblyReference.cache
